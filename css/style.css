@@ -10,7 +10,7 @@ body{
 	box-shadow: 8px 0px 10px 5px rgba(113,113,113,0.8); ;
 }
 #leftCol h1{
-	font-size: 45px;
+	font-size: 30px;
 	margin-bottom: 0px;
 }
 #leftCol p{
@@ -20,7 +20,7 @@ body{
 	text-align: center;
 }
 #leftCol .first{
-	margin-top: 40px;
+	margin-top: 30px;
 	width: 100%;
 }
 #leftCol .first ul{
@@ -38,7 +38,7 @@ body{
 	padding:10px;
 }
 #leftCol .first a{
-	font-size: 17px;
+	font-size: 16px;
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
@@ -61,7 +61,7 @@ body{
 }
 .filter li{
 	margin-right: 10px;
-	padding:8px;
+	padding:5px;
 }
 .filter a{
 	font-size: 16px;
@@ -73,7 +73,7 @@ body{
 	transition: 0.5s;
 }
 .filter hr{
-	border:0.5px solid black;
+	border:0.5px solid #1e282b;
 	margin:0;
 }
 .network ul{
@@ -99,20 +99,113 @@ body{
 	color:#909191;
 }
 .end{
-	height: 10vh;
 	display: flex;
-	align-items: flex-end;
 	justify-content: flex-end;
 }
 #rightCol{
+
 		padding-left: 250px;
 }
 #content{
+	
 	padding:0 40px;
 }
 
-.textContainer{
-	height: 2000px;
-	background:red;
+.textContainer hr{
+	margin:0;
+}
+.general h1{
+	text-align: center;
+}
+.general p{
+	font-size: 25px;
+}
+.bears{
+	margin-top:70px;
+}
+.bears h3{
+	text-align: center;
+	
+}
+.bears img{
+	width: 40%;
+	float: right;
+	border-radius: 30px;
+}
+.bears p{
+	font-size: 25px;
+	
+}
+.foxes h3{
+	text-align: center;
+	
+}
+
+.foxes img{
+	float:left;
+	width:40%;
+	border-radius: 30px;
+}
+.foxes p{
+	font-size: 25px;
+}
+.wolves h3{
+	text-align: center;
+	
+}
+.wolves img{
+	float:right;
+	width:40%;
+	border-radius: 30px;
+}
+.wolves p{
+	font-size: 25px;
+}
+.save h3{
+	text-align: center;
+}
+.save p{
+	font-size: 25px;
+}
+.save img{
+	width: 40%;
+	border-radius: 40px;
+
+}
+.ph{
+	width: 40%;
+}
+.photo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.photo img{
+	width: 100%;
+
+}
+.registr h4{
+	text-align: center;
+}
+.registr p{
+	text-align: left;
+	font-size: 20px;
+}
+form span{
+	font-size:18px;
+	font-style: italic;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	
+}
+button{
+	border:1px solid black;
+	width: 100px;
+	height: 30px;
 }
 
