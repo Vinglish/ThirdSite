@@ -110,7 +110,9 @@ body{
 	
 	padding:0 40px;
 }
-
+.textContainer{
+	background: url(../img/white.jpg)
+}
 .textContainer hr{
 	margin:0;
 }
@@ -185,27 +187,81 @@ body{
 	width: 100%;
 
 }
-.registr h4{
-	text-align: center;
+
+#textContainer{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
-.registr p{
-	text-align: left;
-	font-size: 20px;
+.d-input::before{
+	margin-right: 20px;
+
+
 }
-form span{
-	font-size:18px;
-	font-style: italic;
+.container{
+	width: 450px;
+	background: #242b2e;
 }
 form{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.container a{
+	color: white;
+}
+.container a:hover{
+	text-decoration: none;
+
+}
+#textContainer hr{
+	margin-top:20px;
+}
+input[type="text"], input[type="password"]{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	padding-left: 10px;
+
+}
+.knopka{
+	padding: 13px 30px;
+	font-size: 15px;
+	color:white;
+	background: lightblue;
+	border:none;
+}
+.knopka:hover{
+	transition: all 0.5s;
+	background: blue;
+
+}
+.sulka{
+	margin-top: 10px;
+}
+.hrlast{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-
-	
+	justify-content: center;
 }
-button{
-	border:1px solid black;
-	width: 100px;
-	height: 30px;
+.hrlast hr{
+	text-align: center;
+	width: 80%;
+	margin-top: 20px;
 }
+#footer p{
+	font-size: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
 
+}
+@media screen and (max-width: 685px){
+	#leftCol{
+		display: none;
+	}
+	#rightCol{
+		padding-left: 0px;
+	}
+}
